@@ -12,6 +12,8 @@ League of Legends , Minecraft , Twitch , Fortnite , Spotify et Discord
 
 ![](https://i.imgur.com/2Yrwu2i.png)
 
+integration de lecteur de spotify, et youtube et twitch comme l'on peut voir sur le screen  
+
 ### Etape 3
 
 Nous recuperons les api et donnée api 
