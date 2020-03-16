@@ -23,5 +23,5 @@ integration de boostrap
 
 Creation du js avec le mode nuit 
 Activation du mode nuit mais certain bug sur le mode light encore a dater du 16/03/2020
-
+Site presque terminer plus qu'a integrer les api et mettre en forme car le site n'est pas jolie il faut bien integrer les api 
 
