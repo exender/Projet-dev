@@ -1,50 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <title>Les rois</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Les Rois</title>
   <script src="script.js"></script>
   <link rel='icon' type='image/x-icon' href='./Site/couronne-favicon.ico' />
-  <link rel="stylesheet" href="script.css">
-  <link id="lightCss" rel="stylesheet" href="script.css">
-  <div id="lightSlider" style="display:flex;margin-left:auto">
-    <div style="font-size: 26px;margin-right: 5px;">
-      <span class="onlyLight">Light</span>
-      <span class="onlyDark">Dark</span>
-    </div>
-    <div>
-      <label class="switch">
-        <input id="lightSelector" onchange="changeLight(this.checked);" type="checkbox">
-        <span class="slider round"></span>
-      </label>
-    </div>
-  </div>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
   <ul>
-    <li><a target="new_blank" href="./leagueoflegends.html">League of Legends</a></li>
-    <li><a target="new_blank" href="./minecraft.html">Minecraft</a></li>
-    <li><a target="new_blank" href="https://www.youtube.com/channel/UCk31QZXkCupvKUG5Y1YuDIA/videos">Youtube</a></li>
-    <li><a target="new_blank" href="https://discord.gg/vNPtW6G">JOIN DISCORD</a></li>
-
+    <li><a target="_blank" href="./leagueoflegends.html" class="top_links">League Of Legends </a></li>
+    <li><a target="_blank" href="./minecraft.html" class="top_links">Minecraft</a></li>
   </ul>
-  <div class="page_complete">
+
+  <button class="Y_button"><a target="_blank" href="https://www.youtube.com/channel/UCk31QZXkCupvKUG5Y1YuDIA/videos"
+      class="top_links">Youtube</a></button>
+
+  <button class="D_button"><a target="_blank" href="https://discord.gg/vNPtW6G">JOIN NOUS SUR
+      DISCORD</a></button>
+
+  <div class="Spotify">
+    <iframe src="https://open.spotify.com/embed/playlist/5ATxOcTSPaBeUM5tYM7OQA" frameborder="0"
+      allowtransparency="true" allow="encrypted-media"></iframe>
+  </div>
+
+  <div>
     <div class="Twitch">
-      <iframe src="https://player.twitch.tv/?channel=biozard01" frameborder="0" allowfullscreen="true" scrolling="no"
-        height="378" width="620"></iframe><a
-        href="https://www.twitch.tv/biozard01?tt_content=text_link&tt_medium=live_embed"
-        style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Regardez
+      <a href="https://www.twitch.tv/biozard01?tt_content=text_link&tt_medium=live_embed" class="">Regardez
         le meilleur streameur de tous les temps</a>
-      <iframe src="https://www.twitch.tv/embed/biozard01/chat" frameborder="0" scrolling="no" height="500"
-        width="350"></iframe>
-    </div>
-    <div class="Spotify">
-      <iframe src="https://open.spotify.com/embed/playlist/5ATxOcTSPaBeUM5tYM7OQA" width="300" height="380"
-        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://player.twitch.tv/?channel=biozard01" frameborder="0" allowfullscreen="true" scrolling="no"
+        height="100%" width="100%"></iframe>
+      <iframe src="https://www.twitch.tv/embed/biozard01/chat" frameborder="0" scrolling="no" height="100%"
+        width="100%"></iframe>
     </div>
 
   </div>
