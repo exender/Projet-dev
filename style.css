@@ -11,8 +11,6 @@ body {
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
   list-style-type: none;
   text-align: center;
 }
@@ -33,40 +31,55 @@ a :hover {
 
 .Twitch {
   display: inline-block;
+  margin-left: 10%;
+  margin-top: -5%;
 }
 
 .Spotify {
   display: flex;
-  margin-left: 83%;
-  margin-top: auto;
+  margin-left: 84%;
 }
 
 .top_links {
   font-size: 30px;
 }
 
-.D_button {
+#links {
+  margin-top: -25%;
+  margin-left: 84%;
+}
+
+.text_stream {
+  margin-left: 38%;
+  text-align: center;
+  font-size: 25px;
+}
+
+#woah {
   display: flex;
   text-align: center;
   border: none;
   text-decoration: none;
-  margin-left: 45%;
-  margin-top: 1%;
-  background-color: rgb(81, 128, 168);
   width: 10%;
   height: 100%;
   font-size: 30px;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+.D_button {
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background-color: rgb(81, 128, 168);
+  margin-left: 35%;
+  margin-top: 20%;
 }
 
 .Y_button {
-  display: flex;
   text-align: center;
   border: none;
   text-decoration: none;
-  margin-left: 45%;
-  margin-top: 1%;
   background-color: firebrick;
-  width: 10%;
-  height: 100%;
-  font-size: 30px;
+  margin-left: 50%;
 }
