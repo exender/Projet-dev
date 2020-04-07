@@ -1,3 +1,5 @@
+// League Of Legend //
+
 function summonerLookUp() {
     var SUMMONER_NAME = "";
     SUMMONER_NAME = $("#userName").val();
@@ -31,3 +33,5 @@ function summonerLookUp() {
         });
     } else {}
 }
+
+// Twitter //
