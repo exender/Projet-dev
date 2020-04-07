@@ -33,5 +33,3 @@ function summonerLookUp() {
         });
     } else {}
 }
-
-// Twitter //
