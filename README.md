@@ -6,7 +6,7 @@
 
 Nous avons choisis de faire un site web avec multi page et recupere des api de plusieur jeu pour recuperer toutes les donnéees
 Comme jeux et applications principals nous avons choisis :
-League of Legends , Minecraft , Twitch , Fortnite , Spotify et Discord
+League of Legends, Twitch, Spotify, Twitter et Discord
 
 ### Etape 2
 
