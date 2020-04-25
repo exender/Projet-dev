@@ -4,7 +4,7 @@ function summonerLookUp() {
     var SUMMONER_NAME = "";
     SUMMONER_NAME = $("#userName").val();
 
-    var API_KEY = '?api_key=' + "RGAPI-c56bb311-f74e-4901-bde1-03249ac3575f";
+    var API_KEY = '?api_key=' + "RGAPI-ccbd365f-ac19-4184-95e1-4cc3e9ec444d";
 
     if (SUMMONER_NAME !== "") {
 
@@ -26,9 +26,6 @@ function summonerLookUp() {
                 document.getElementById("sLevel").innerHTML = summonerLevel;
                 document.getElementById("sName").innerHTML = summonerName;
 
-            },
-            error: function (XMLHttpRequest, textStatus, errorThrown) {
-                alert("error getting Summoner data!");
             }
         });
     }
