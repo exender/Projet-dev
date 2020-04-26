@@ -76,3 +76,14 @@ a {
   margin-left: 87%;
   width: 10%;
 }
+
+#accueil {
+  display: flex;
+  text-align: center;
+  border: none;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  font-size: 30px;
+}
