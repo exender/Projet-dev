@@ -29,19 +29,14 @@ function Name() {
     alert(sumName);
 }
 
-/*  var SUMMONER_NAME = document.getElementById("userName").value;
-
-    var API_KEY = "RGAPI-ccbd365f-ac19-4184-95e1-4cc3e9ec444d";
-
-    if (SUMMONER_NAME !== "") {
+/* 
+if (SUMMONER_NAME !== "") {
         xhttp.open({
             type: "GET",
-            url: "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + SUMMONER_NAME,
-            async: "false",
+            url: "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + SUMMONER_NAME + '?api_key=' + API_KEY,
+            async: true,
             dataType: "json",
-            data: {
-
-            },
+            data: {},
             success: function (json) {
                 var SUMMONER_NAME_NOSPACES = SUMMONER_NAME.replace(" ", "");
 
@@ -59,7 +54,6 @@ function Name() {
                 alert("error getting Summoner data!");
             }
         });
-        xhttp.send();
-    }
 
-*/
+    }
+    */
