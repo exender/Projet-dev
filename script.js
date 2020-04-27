@@ -1,19 +1,26 @@
 // League Of Legend //
 
+if (window.XMLHttpRequest) {
+    // code for modern browsers
+    var xhttp = new XMLHttpRequest();
+} else {
+    // code for old IE browsers
+    var xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+
 var sumName = "";
 
 function summonerLookUp() {
-    var SUMMONER_NAME = "";
-    SUMMONER_NAME = $("#userName").val();
+    var SUMMONER_NAME = document.getElementById("userName").value;
 
     var API_KEY = "RGAPI-ccbd365f-ac19-4184-95e1-4cc3e9ec444d";
 
     if (SUMMONER_NAME !== "") {
-
-        $.ajax({
-            url: 'https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/' + SUMMONER_NAME + '?api_key=' + API_KEY,
-            type: 'GET',
-            dataType: 'json',
+        xhttp.open({
+            type: "GET",
+            url: "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + SUMMONER_NAME,
+            async: "false",
+            dataType: "json",
             data: {
 
             },
@@ -28,14 +35,14 @@ function summonerLookUp() {
                 document.getElementById("sLevel").innerHTML = summonerLevel;
                 document.getElementById("sID").innerHTML = summonerID;
 
-                // give sumName the Summoner Name from the json Object
                 sumName = json[SUMMONER_NAME_NOSPACES].name;
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert("error getting Summoner data!");
             }
         });
-    } else {}
+        xhttp.send();
+    }
 }
 
 function Name() {
