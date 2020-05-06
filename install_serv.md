@@ -1,6 +1,10 @@
 # Installation du serveur sous NGINX Ubuntu 20.04
 
-
+1. Instalation
+2. Commençon a heberger
+3. Configuration d'un serveur de base
+4. Comment se passer du vieux "localhost"
+5. Penchons nous sur le HTTP{S}
 ## Installation
 ```
 sudo nano /etc/apt/sources.list
@@ -200,3 +204,5 @@ Si tous a reussi
 ```linux
 sudo systemctl restart nginx
 ```
+
+Voila le serveur est fonctionnel avec notre site 
